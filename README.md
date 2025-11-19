@@ -1,9 +1,43 @@
+<div align="center">
+
+<img src="https://img.shields.io/badge/Portfólio-SQL-blue?style=for-the-badge&logo=mysql" />
+<img src="https://img.shields.io/badge/PostgreSQL-Compatible-blue?style=for-the-badge&logo=postgresql" />
+<img src="https://img.shields.io/badge/MySQL-Compatible-orange?style=for-the-badge&logo=mysql" />
+<img src="https://img.shields.io/badge/Status-Ativo-success?style=for-the-badge" />
+
+# 📊 Portfólio SQL  
+### Consultas para Análise de Negócios, KPIs, ETL e Funções Avançadas
+
+</div>
+
+Este repositório reúne consultas SQL desenvolvidas para **cenários reais de análise de dados**, com foco em:
+
+- Modelagem e exploração de dados  
+- KPIs de negócio (receita, ticket médio, churn)  
+- Segmentação de clientes  
+- Análises temporais  
+- Funções analíticas (window functions)  
+- CTEs para pipelines limpos e organizados  
+- Checks de qualidade e consistência de dados  
+
+Compatível com **PostgreSQL** e **MySQL**.
 
 ---
 
-# 📌 Descrição dos Arquivos
+<div align="center">
 
-### 🔹 `clientes_segmentacao.sql`
+## 📁 Estrutura do Repositório
+</div>
+
+
+---
+
+<div align="center">
+
+# 🔍 Descrição dos Arquivos  
+</div>
+
+## 🔹 `clientes_segmentacao.sql`
 Consulta para segmentar clientes por:
 
 - Receita total  
@@ -15,14 +49,14 @@ Utiliza:
 
 - JOINs  
 - Agregações  
-- Metric business logic  
+- Lógica de negócio  
 
-Ótimo para análises de performance comercial e comportamento do cliente.
+Ideal para análises de performance comercial e comportamento do cliente.
 
 ---
 
-### 🔹 `vendas_window_functions.sql`
-Exemplos de funções analíticas:
+## 🔹 `vendas_window_functions.sql`
+Exemplos reais de funções analíticas:
 
 - `ROW_NUMBER()`  
 - `RANK()`  
@@ -32,57 +66,61 @@ Exemplos de funções analíticas:
 Aplicações:
 
 - Ranking de clientes  
-- Acúmulo de vendas  
-- Tendência mensal  
-- Percentuais e distribuições  
+- Receita acumulada  
+- Análise temporal  
+- Tendências  
 
-Demonstra domínio de **window functions**, altamente valorizadas em análise avançada.
+Demonstra domínio de **window functions**, essenciais em análise avançada.
 
 ---
 
-### 🔹 `kpis_negocio_cte.sql`
-KPIs clássicos usando CTEs:
+## 🔹 `kpis_negocio_cte.sql`
+KPIs calculados usando CTEs:
 
 - Receita mensal  
-- Número de pedidos  
+- Pedidos mensais  
 - Ticket médio  
-- Estrutura modular de consultas  
 
 Mostra boa prática de organização usando **WITH (CTE)**.
 
 ---
 
-### 🔹 `qualidade_dados.sql`
+## 🔹 `qualidade_dados.sql`
 Checks essenciais de DataOps:
 
-- Valores nulos em campos obrigatórios  
-- Dados inconsistentes (quantidade negativa etc.)  
+- Campos obrigatórios nulos  
+- Valores inconsistentes (quantidade negativa etc.)  
 - Integridade referencial (pedidos sem cliente)  
 - Duplicidades  
-- Datas inválidas  
+- Datas fora do padrão  
 
-Demonstra preocupação com **qualidade de dados**, essencial em pipelines de ETL/ELT.
+Demonstra foco em **qualidade de dados**, importante em pipelines ETL/ELT.
 
 ---
 
+<div align="center">
+
 # 🛠️ Tecnologias Utilizadas
+</div>
 
 | Categoria | Ferramentas |
 |----------|-------------|
-| Banco de Dados | PostgreSQL · MySQL |
-| Consultas | SQL Avançado |
-| Técnicas | JOINS · Window Functions · CTEs · Agregações |
-| Boas Práticas | Organização modular · Qualidade de dados |
+| **Banco de Dados** | PostgreSQL · MySQL |
+| **Consultas** | SQL Avançado |
+| **Técnicas** | JOINs · Window Functions · CTEs · Agregações |
+| **Boas Práticas** | Query modular · Organização · Qualidade de dados |
 
 ---
 
-# 👩‍💻 Autora
+<div align="center">
 
-**Cibelly Viegas**  
+# 👩‍💻 Autora  
+<b>Cibelly Viegas</b>  
 Cientista de Dados & Analista de BI  
 📧 cibelly.viegas@gmail.com  
-🔗 [LinkedIn](https://www.linkedin.com/in/cibelly-viegas-de-souza-0584a8160/)
+🔗 <a href="https://www.linkedin.com/in/cibelly-viegas-de-souza-0584a8160/">LinkedIn</a>
 
----
+<br><br>
+<i>“SQL é a linguagem que transforma dados em respostas — e respostas em ação.”</i>
 
-<p align="center"><i>“SQL é a linguagem que transforma dados em respostas — e respostas em ação.”</i></p>
+</div>
