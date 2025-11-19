@@ -1,113 +1,94 @@
-📊 Portfólio SQL — Análises e Consultas de Negócios
+# 📊 Portfólio SQL — Análises e Consultas de Negócios
 
-Este repositório reúne consultas SQL desenvolvidas em PostgreSQL/MySQL, com foco em:
+Repositório com consultas SQL desenvolvidas em PostgreSQL/MySQL, com foco em segmentação, KPIs de negócio, window functions, qualidade dos dados e boas práticas de estruturação SQL.
 
-Segmentação de clientes
+---
 
-KPIs de negócio
+## 🎯 O que este portfólio demonstra
 
-Window Functions
+Lógica aplicada para resolver problemas reais de negócio  
+Uso de JOINs, CTEs e Window Functions  
+Construção de KPIs e análises avançadas  
+Organização profissional de consultas SQL  
 
-Data Quality
+---
 
-Boas práticas de organização SQL
+## 📂 Estrutura do Repositório
 
-🎯 O que este portfólio demonstra
+---
 
-Lógica aplicada para resolver problemas reais de negócio
+## **1. clientes_segmentacao.sql**
 
-Uso de JOINs, CTEs e Window Functions
+### 🎯 Objetivo
+Identificar e segmentar perfis de clientes a partir de dados de receita, número de pedidos, região e período de compra.
 
-Cálculo de indicadores, segmentações e análises avançadas
+### 🛠 Técnicas utilizadas
+JOINs  
+Agregações  
+Filtros de data  
 
-Estruturação profissional de consultas SQL
+---
 
-📂 Estrutura do Repositório
-1. clientes_segmentacao.sql
-🎯 Objetivo
+## **2. vendas_window_functions.sql**
 
-Identificar perfis de clientes analisando:
+### 🎯 Objetivo
+Aplicar funções analíticas para análises avançadas de vendas e comportamento de clientes.
 
-Receita total
+### Funções utilizadas
+ROW_NUMBER()  
+RANK()  
+SUM() OVER()  
+AVG() OVER()  
 
-Número de pedidos
+### Aplicações
+Ranking de clientes  
+Receita acumulada  
+Análises temporais  
+Tendências  
 
-Região
+---
 
-Período de compra
+## **3. kpis_negocio_cte.sql**
 
-🛠 Técnicas utilizadas
+### 🎯 Objetivo
+Calcular KPIs essenciais do negócio utilizando CTEs para melhora na leitura, modularidade e manutenção do código.
 
-JOINs
+### Métricas calculadas
+Ticket médio  
+Total de pedidos por cliente  
+Receita total por região  
+Frequência de compra  
 
-Agregações
+---
 
-Filtros de data
+## **4. qualidade_dados.sql**
 
-2. vendas_window_functions.sql
-🎯 Objetivo
+### 🎯 Objetivo
+Realizar validações essenciais de Qualidade de Dados antes da análise.
 
-Aplicação prática de funções analíticas (window functions).
+### Verificações realizadas
+Campos obrigatórios nulos  
+Valores inconsistentes  
+Pedidos sem cliente  
+Registros duplicados  
+Datas fora do padrão  
 
-Funções utilizadas
+---
 
-ROW_NUMBER()
+## 🛠 Tecnologias utilizadas
 
-RANK()
+SQL  
+PostgreSQL  
+MySQL  
 
-SUM() OVER()
+---
 
-AVG() OVER()
+## 📬 Contato
 
-Aplicações
+Cibelly Viegas  
+cibelly.viegas@gmail.com  
+LinkedIn: https://www.linkedin.com/in/cibelly-viegas-de-souza-0584a8160/
 
-Ranking de clientes
-
-Receita acumulada
-
-Análises temporais
-
-Tendências
-
-3. kpis_negocio_cte.sql
-🎯 Objetivo
-
-Calcular KPIs essenciais usando CTEs para clareza e modularidade.
-
-Métricas calculadas
-
-Ticket médio
-
-Total de pedidos por cliente
-
-Receita por região
-
-Frequência de compra
-
-4. qualidade_dados.sql
-🎯 Objetivo
-
-Executar validações essenciais de Data Quality.
-
-Verificações realizadas
-
-Campos obrigatórios nulos
-
-Valores inconsistentes
-
-Pedidos sem cliente
-
-Registros duplicados
-
-Datas fora do padrão
-
-🛠 Tecnologias utilizadas
-
-SQL
-
-PostgreSQL
-
-MySQL
 
 📬 Contato
 
