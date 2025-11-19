@@ -6,10 +6,10 @@ Repositório com consultas SQL para **PostgreSQL/MySQL**, focadas em resolução
 ---
 
 ## 🧰 O que este portfólio demonstra
-- Lógica para resolver problemas de negócio  
-- Joins, CTEs e Window Functions  
-- Segmentação, KPIs e Data Quality  
-- Organização profissional de consultas SQL  
+Lógica para resolver problemas de negócio  
+Joins, CTEs e Window Functions  
+Segmentação, KPIs e Data Quality  
+Organização profissional de consultas SQL  
 
 ---
 
