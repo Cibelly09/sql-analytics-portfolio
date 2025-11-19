@@ -21,7 +21,6 @@ Organização corporativa e modular de consultas SQL
 </div>
 
 ---
-<br>
 
 <div align="center">
 
@@ -44,8 +43,6 @@ Filtros de data
 
 ---
 
-<br>
-
 <div align="center">
 
 <h3>2 · vendas_window_functions.sql</h3>
@@ -66,8 +63,6 @@ Tendências
 
 ---
 
-<br>
-
 <div align="center">
 
 <h3>3 · kpis_negocio_cte.sql</h3>
@@ -84,8 +79,6 @@ Frequência de compra
 </div>
 
 ---
-
-<br>
 
 <div align="center">
 
@@ -104,8 +97,6 @@ Datas fora do padrão
 </div>
 
 ---
-
-<br>
 
 <div align="center">
 
