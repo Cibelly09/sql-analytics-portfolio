@@ -1,13 +1,13 @@
 <div align="center">
 
-# 📊 **Portfólio SQL — Análises de Negócio**
+<h2>📊 Portfólio SQL — Análises de Negócio</h2>
 
-Repositório com consultas SQL em **PostgreSQL** e **MySQL**, aplicadas para  
-**segmentação de clientes**, **KPIs**, **window functions**, **CTEs** e **Data Quality**.
+Repositório com consultas SQL aplicadas a casos reais de negócio  
+(PostgreSQL e MySQL)
 
 ---
 
-## 🧠 **O que este portfólio demonstra**
+<h3>🧠 O que este portfólio demonstra</h3>
 
 Lógica aplicada para resolver problemas reais de negócio  
 Construção de análises e métricas profissionais  
@@ -16,7 +16,7 @@ Organização corporativa e modular de consultas SQL
 
 ---
 
-# 📂 **Estrutura do Repositório**
+<h3>📂 Estrutura do Repositório</h3>
 
 </div>
 
@@ -26,9 +26,9 @@ Organização corporativa e modular de consultas SQL
 
 <div align="center">
 
-# **1 · clientes_segmentacao.sql**
+<h3>1 · clientes_segmentacao.sql</h3>
 
-### 🎯 **Objetivo**
+<b>🎯 Objetivo</b>  
 Consulta para identificar perfis de clientes analisando:
 
 Receita total  
@@ -36,7 +36,7 @@ Número de pedidos
 Região  
 Período de compra  
 
-### 🛠 **Técnicas aplicadas**
+<b>🛠 Técnicas aplicadas</b>  
 JOINs  
 Agregações  
 Filtros de data  
@@ -49,22 +49,19 @@ Filtros de data
 
 <div align="center">
 
-# **2 · vendas_window_functions.sql**
+<h3>2 · vendas_window_functions.sql</h3>
 
-### 🎯 **Objetivo**
-Aplicação prática de **window functions** para análises avançadas.
+<b>🎯 Objetivo</b>  
+Aplicação prática de window functions para análises avançadas.
 
-### Funções utilizadas
-ROW_NUMBER()  
-RANK()  
-SUM() OVER()  
-AVG() OVER()  
+<b>Funções utilizadas</b>  
+ROW_NUMBER() • RANK() • SUM() OVER() • AVG() OVER()
 
-### Aplicações reais
+<b>Aplicações reais</b>  
 Ranking de clientes  
 Receita acumulada  
 Análise temporal  
-Identificação de tendências  
+Tendências  
 
 </div>
 
@@ -74,12 +71,12 @@ Identificação de tendências
 
 <div align="center">
 
-# **3 · kpis_negocio_cte.sql**
+<h3>3 · kpis_negocio_cte.sql</h3>
 
-### 🎯 **Objetivo**
-Cálculo de KPIs de negócio usando **CTEs** para modularidade.
+<b>🎯 Objetivo</b>  
+Cálculo de KPIs essenciais usando CTEs para modularidade.
 
-### Métricas trabalhadas
+<b>Métricas</b>  
 Ticket médio  
 Total de pedidos por cliente  
 Receita por região  
@@ -93,13 +90,13 @@ Frequência de compra
 
 <div align="center">
 
-# **4 · qualidade_dados.sql**
+<h3>4 · qualidade_dados.sql</h3>
 
-### 🎯 **Objetivo**
-Realizar verificações fundamentais de **Qualidade de Dados** antes da análise.
+<b>🎯 Objetivo</b>  
+Garantir a consistência e confiabilidade dos dados antes da análise.
 
-### Validações executadas
-Campos obrigatórios nulos  
+<b>Verificações realizadas</b>  
+Campos nulos  
 Valores inconsistentes  
 Pedidos sem cliente  
 Registros duplicados  
@@ -113,15 +110,16 @@ Datas fora do padrão
 
 <div align="center">
 
-# 🛠 **Tecnologias Utilizadas**
-SQL · PostgreSQL · MySQL
+<h3>🛠 Tecnologias Utilizadas</h3>
+
+SQL • PostgreSQL • MySQL  
 
 ---
 
-## 📬 **Contato**
+<h3>📬 Contato</h3>
 
-Cibelly Viegas  
-cibelly.viegas@gmail.com  
-[LinkedIn](https://www.linkedin.com/in/cibelly-viegas-de-souza-0584a8160/)
+Cibelly Viegas • cibelly.viegas@gmail.com  
+<a href="https://www.linkedin.com/in/cibelly-viegas-de-souza-0584a8160/">LinkedIn</a>
 
 </div>
+
