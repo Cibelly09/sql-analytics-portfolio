@@ -1,116 +1,117 @@
-<div align="center">
+📊 Portfólio SQL — Análises e Consultas de Negócios
 
-# 📊 Portfólio SQL — Consultas para Análise de Negócios  
-Repositório com consultas SQL para **PostgreSQL/MySQL**, focadas em resolução de problemas reais e lógica de análise de dados.
+Este repositório reúne consultas SQL desenvolvidas em PostgreSQL/MySQL, com foco em:
 
----
+Segmentação de clientes
 
-## 🧰 O que este portfólio demonstra
-Lógica para resolver problemas de negócio  
-Joins, CTEs e Window Functions  
-Segmentação, KPIs e Data Quality  
-Organização profissional de consultas SQL  
+KPIs de negócio
 
----
+Window Functions
 
-</div>
+Data Quality
 
-# 📁 Estrutura do Repositório
+Boas práticas de organização SQL
 
----
+🎯 O que este portfólio demonstra
 
-# 📍 1. `clientes_segmentacao.sql`
-<div align="center">
+Lógica aplicada para resolver problemas reais de negócio
 
-### 🎯 Objetivo  
-Consulta para identificar **perfis de clientes**, analisando:
+Uso de JOINs, CTEs e Window Functions
 
-Receita total  
-Número de pedidos  
-Região  
-Período de compra  
+Cálculo de indicadores, segmentações e análises avançadas
 
-### 🛠️ Técnicas utilizadas  
-JOINs  
-Agregações  
-Filtros de data  
+Estruturação profissional de consultas SQL
 
-</div>
+📂 Estrutura do Repositório
+1. clientes_segmentacao.sql
+🎯 Objetivo
 
----
+Identificar perfis de clientes analisando:
 
-# 📍 2. `vendas_window_functions.sql`
-<div align="center">
+Receita total
 
-### 🎯 Objetivo  
-Aplicação prática de **window functions** para análises avançadas.
+Número de pedidos
 
-### 🔍 Funções utilizadas
-`ROW_NUMBER()`  
-`RANK()`  
-`SUM() OVER()`  
-`AVG() OVER()`  
+Região
 
-### 🧩 Aplicações reais
-Ranking de clientes  
-Receita acumulada  
-Análise temporal  
-Tendências  
+Período de compra
 
-Demonstra domínio de análises avançadas com **window functions**.
+🛠 Técnicas utilizadas
 
-</div>
+JOINs
 
----
+Agregações
 
-# 📍 3. `kpis_negocio_cte.sql`
-<div align="center">
+Filtros de data
 
-### 🎯 Objetivo  
-Cálculo de **KPIs essenciais de negócio** utilizando **CTEs** para facilitar leitura e modularização.
+2. vendas_window_functions.sql
+🎯 Objetivo
 
-### 📈 Métricas calculadas  
-Ticket médio  
-Total de pedidos por cliente  
-Receita total por região  
-Frequência de compra  
+Aplicação prática de funções analíticas (window functions).
 
-Consulta estruturada com CTEs para clareza e performance.
+Funções utilizadas
 
-</div>
+ROW_NUMBER()
 
----
+RANK()
 
-# 📍 4. `qualidade_dados.sql`
-<div align="center">
+SUM() OVER()
 
-### 🎯 Objetivo  
-Realizar *checks* essenciais de **Data Quality**, garantindo a consistência dos dados antes da análise.
+AVG() OVER()
 
-### 🔍 Verificações realizadas  
-Campos obrigatórios nulos  
-Valores inconsistentes  
-Pedidos sem cliente  
-Registros duplicados  
-Datas fora do padrão  
+Aplicações
 
-Seguindo boas práticas de **Data Quality**.
+Ranking de clientes
 
-</div>
+Receita acumulada
 
----
+Análises temporais
 
-<div align="center">
+Tendências
 
-## 🧠 Tecnologias utilizadas  
-`SQL` · `PostgreSQL` · `MySQL`
+3. kpis_negocio_cte.sql
+🎯 Objetivo
 
----
+Calcular KPIs essenciais usando CTEs para clareza e modularidade.
 
-## ✨ Autoria  
-Feito por **Cibelly Viegas**  
-📧 cibelly.viegas@gmail.com  
-🔗 [LinkedIn](https://www.linkedin.com/in/cibelly-viegas-de-souza-0584a8160/)
+Métricas calculadas
 
-</div>
+Ticket médio
 
+Total de pedidos por cliente
+
+Receita por região
+
+Frequência de compra
+
+4. qualidade_dados.sql
+🎯 Objetivo
+
+Executar validações essenciais de Data Quality.
+
+Verificações realizadas
+
+Campos obrigatórios nulos
+
+Valores inconsistentes
+
+Pedidos sem cliente
+
+Registros duplicados
+
+Datas fora do padrão
+
+🛠 Tecnologias utilizadas
+
+SQL
+
+PostgreSQL
+
+MySQL
+
+📬 Contato
+
+Cibelly Viegas
+📧 cibelly.viegas@gmail.com
+
+🔗 LinkedIn: https://www.linkedin.com/in/cibelly-viegas-de-souza-0584a8160/
