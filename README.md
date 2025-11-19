@@ -1,71 +1,116 @@
 <div align="center">
 
-## 🔹 clientes_segmentacao.sql
+# 📊 Portfólio SQL — Consultas para Análise de Negócios  
+Repositório com consultas SQL para **PostgreSQL/MySQL**, focadas em resolução de problemas reais e lógica de análise de dados.
 
-Consulta para segmentar clientes por:
+---
 
-<p>Receita total</p>
-<p>Número de pedidos</p>
-<p>Região</p>
-<p>Período de compra</p>
+## 🧰 O que este portfólio demonstra
+- Lógica para resolver problemas de negócio  
+- Joins, CTEs e Window Functions  
+- Segmentação, KPIs e Data Quality  
+- Organização profissional de consultas SQL  
 
-Utiliza:
-
-<p>JOINs</p>
-<p>Agregações</p>
-<p>Lógica de negócio</p>
+---
 
 </div>
+
+# 📁 Estrutura do Repositório
+
+---
+
+# 📍 1. `clientes_segmentacao.sql`
 <div align="center">
 
-## 🔹 vendas_window_functions.sql
+### 🎯 Objetivo  
+Consulta para identificar **perfis de clientes**, analisando:
 
-Funções analíticas utilizadas:
+Receita total  
+Número de pedidos  
+Região  
+Período de compra  
 
-<p>ROW_NUMBER()</p>
-<p>RANK()</p>
-<p>SUM() OVER()</p>
-<p>AVG() OVER()</p>
-
-Aplicações:
-
-<p>Ranking de clientes</p>
-<p>Receita acumulada</p>
-<p>Análise temporal</p>
-<p>Tendências</p>
-
-Demonstra domínio de <b>window functions</b>.
+### 🛠️ Técnicas utilizadas  
+JOINs  
+Agregações  
+Filtros de data  
 
 </div>
+
+---
+
+# 📍 2. `vendas_window_functions.sql`
 <div align="center">
 
-## 🔹 kpis_negocio_cte.sql
+### 🎯 Objetivo  
+Aplicação prática de **window functions** para análises avançadas.
 
-KPIs calculados:
+### 🔍 Funções utilizadas
+`ROW_NUMBER()`  
+`RANK()`  
+`SUM() OVER()`  
+`AVG() OVER()`  
 
-<p>Receita mensal</p>
-<p>Pedidos mensais</p>
-<p>Ticket médio</p>
+### 🧩 Aplicações reais
+Ranking de clientes  
+Receita acumulada  
+Análise temporal  
+Tendências  
 
-Utiliza:
-
-<p>CTEs (WITH)</p>
-<p>Agregações</p>
-<p>Filtros de data</p>
+Demonstra domínio de análises avançadas com **window functions**.
 
 </div>
+
+---
+
+# 📍 3. `kpis_negocio_cte.sql`
 <div align="center">
 
-## 🔹 qualidade_dados.sql
+### 🎯 Objetivo  
+Cálculo de **KPIs essenciais de negócio** utilizando **CTEs** para facilitar leitura e modularização.
 
-Checks de qualidade realizados:
+### 📈 Métricas calculadas  
+Ticket médio  
+Total de pedidos por cliente  
+Receita total por região  
+Frequência de compra  
 
-<p>Campos obrigatórios nulos</p>
-<p>Valores inconsistentes</p>
-<p>Pedidos sem cliente</p>
-<p>Duplicidades</p>
-<p>Datas fora do padrão</p>
-
-Focado em boas práticas de <b>Data Quality</b>.
+Consulta estruturada com CTEs para clareza e performance.
 
 </div>
+
+---
+
+# 📍 4. `qualidade_dados.sql`
+<div align="center">
+
+### 🎯 Objetivo  
+Realizar *checks* essenciais de **Data Quality**, garantindo a consistência dos dados antes da análise.
+
+### 🔍 Verificações realizadas  
+Campos obrigatórios nulos  
+Valores inconsistentes  
+Pedidos sem cliente  
+Registros duplicados  
+Datas fora do padrão  
+
+Seguindo boas práticas de **Data Quality**.
+
+</div>
+
+---
+
+<div align="center">
+
+## 🧠 Tecnologias utilizadas  
+`SQL` · `PostgreSQL` · `MySQL`
+
+---
+
+## ✨ Autoria  
+Feito por **Cibelly Viegas**  
+📧 cibelly.viegas@gmail.com  
+🔗 [LinkedIn](https://www.linkedin.com/in/cibelly-viegas-de-souza-0584a8160/)
+
+</div>
+
