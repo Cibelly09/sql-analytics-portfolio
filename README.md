@@ -8,7 +8,7 @@
 # 📊 Portfólio SQL  
 ### Consultas para Análise de Negócios, KPIs, ETL e Funções Avançadas
 
-</div>
+<br>
 
 Este repositório reúne consultas SQL desenvolvidas para **cenários reais de análise de dados**, com foco em:
 
@@ -22,22 +22,27 @@ Este repositório reúne consultas SQL desenvolvidas para **cenários reais de a
 
 Compatível com **PostgreSQL** e **MySQL**.
 
+</div>
+
 ---
 
 <div align="center">
 
 ## 📁 Estrutura do Repositório
-</div>
 
+
+</div>
 
 ---
 
 <div align="center">
 
-# 🔍 Descrição dos Arquivos  
-</div>
+# 🔍 Descrição dos Arquivos
 
-## 🔹 `clientes_segmentacao.sql`
+<br>
+
+## 🔹 clientes_segmentacao.sql
+
 Consulta para segmentar clientes por:
 
 - Receita total  
@@ -51,11 +56,10 @@ Utiliza:
 - Agregações  
 - Lógica de negócio  
 
-Ideal para análises de performance comercial e comportamento do cliente.
-
 ---
 
-## 🔹 `vendas_window_functions.sql`
+## 🔹 vendas_window_functions.sql
+
 Exemplos reais de funções analíticas:
 
 - `ROW_NUMBER()`  
@@ -70,11 +74,12 @@ Aplicações:
 - Análise temporal  
 - Tendências  
 
-Demonstra domínio de **window functions**, essenciais em análise avançada.
+Demonstra domínio de **window functions**.
 
 ---
 
-## 🔹 `kpis_negocio_cte.sql`
+## 🔹 kpis_negocio_cte.sql
+
 KPIs calculados usando CTEs:
 
 - Receita mensal  
@@ -85,23 +90,25 @@ Mostra boa prática de organização usando **WITH (CTE)**.
 
 ---
 
-## 🔹 `qualidade_dados.sql`
+## 🔹 qualidade_dados.sql
+
 Checks essenciais de DataOps:
 
 - Campos obrigatórios nulos  
-- Valores inconsistentes (quantidade negativa etc.)  
-- Integridade referencial (pedidos sem cliente)  
+- Valores inconsistentes  
+- Pedidos sem cliente (integridade referencial)  
 - Duplicidades  
 - Datas fora do padrão  
 
-Demonstra foco em **qualidade de dados**, importante em pipelines ETL/ELT.
+Demonstra foco em **qualidade de dados**, essencial em pipelines ETL/ELT.
+
+</div>
 
 ---
 
 <div align="center">
 
 # 🛠️ Tecnologias Utilizadas
-</div>
 
 | Categoria | Ferramentas |
 |----------|-------------|
@@ -112,8 +119,6 @@ Demonstra foco em **qualidade de dados**, importante em pipelines ETL/ELT.
 
 ---
 
-<div align="center">
-
 # 👩‍💻 Autora  
 <b>Cibelly Viegas</b>  
 Cientista de Dados & Analista de BI  
@@ -121,6 +126,7 @@ Cientista de Dados & Analista de BI
 🔗 <a href="https://www.linkedin.com/in/cibelly-viegas-de-souza-0584a8160/">LinkedIn</a>
 
 <br><br>
+
 <i>“SQL é a linguagem que transforma dados em respostas — e respostas em ação.”</i>
 
 </div>
