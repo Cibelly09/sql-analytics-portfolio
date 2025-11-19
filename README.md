@@ -37,3 +37,35 @@ Aplicações:
 Demonstra domínio de <b>window functions</b>.
 
 </div>
+<div align="center">
+
+## 🔹 kpis_negocio_cte.sql
+
+KPIs calculados:
+
+<p>Receita mensal</p>
+<p>Pedidos mensais</p>
+<p>Ticket médio</p>
+
+Utiliza:
+
+<p>CTEs (WITH)</p>
+<p>Agregações</p>
+<p>Filtros de data</p>
+
+</div>
+<div align="center">
+
+## 🔹 qualidade_dados.sql
+
+Checks de qualidade realizados:
+
+<p>Campos obrigatórios nulos</p>
+<p>Valores inconsistentes</p>
+<p>Pedidos sem cliente</p>
+<p>Duplicidades</p>
+<p>Datas fora do padrão</p>
+
+Focado em boas práticas de <b>Data Quality</b>.
+
+</div>
