@@ -21,7 +21,6 @@ Organização corporativa e modular de consultas SQL
 </div>
 
 ---
-
 <br>
 
 <div align="center">
